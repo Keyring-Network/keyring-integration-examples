@@ -1,11 +1,12 @@
 name: Bug Report (Non-Trivial)
 description: A non-trivial bug report. Something that will not immediately be solved.
 title: "BUG: "
-labels: ["stream: backend", "type: bug"]
+labels: ["stream: smart contracts", "type: bug"]
 assignees:
   - flipdazed
-  - bulutbuyru
-  - mattiast
+  - Oxmarco
+  - JorisZierold
+  - keyringcore
 
 body:
   - type: markdown

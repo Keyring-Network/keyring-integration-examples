@@ -1,11 +1,12 @@
 name: Chore
 description: Updating grunt tasks etc; no production code change
 title: "CHORE: "
-labels: ["stream: backend", "type: chore"]
+labels: ["stream: smart contracts", "type: chore"]
 assignees:
   - flipdazed
-  - bulutbuyru
-  - mattiast
+  - Oxmarco
+  - JorisZierold
+  - keyringcore
 
 body:
   - type: checkboxes

@@ -1,11 +1,12 @@
 name: Improvements / Optimisations
 description: e.g. optimisations, refactoring, style, maintenance.
 title: "IMP: "
-labels: ["stream: backend", "type: improvement"]
+labels: ["stream: smart contracts", "type: improvement"]
 assignees:
   - flipdazed
-  - bulutbuyru
-  - mattiast
+  - Oxmarco
+  - JorisZierold
+  - keyringcore
 
 body:
   - type: textarea

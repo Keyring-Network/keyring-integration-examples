@@ -1,11 +1,12 @@
 name: Feature
 description: New functionality
 title: "FEAT: "
-labels: ["stream: backend", "type: feature"]
+labels: ["stream: smart contracts", "type: feature"]
 assignees:
   - flipdazed
-  - bulutbuyru
-  - mattiast
+  - Oxmarco
+  - JorisZierold
+  - keyringcore
 
 body:
   - type: textarea

@@ -1,11 +1,12 @@
 name: Bug Report (Trivial)
 description: Report a bug that is trivial / we already know how to fix.
 title: "BUG: "
-labels: ["stream: backend", "type: bug", "work: obvious"]
+labels: ["stream: smart contracts", "type: bug", "work: obvious"]
 assignees:
   - flipdazed
-  - bulutbuyru
-  - mattiast
+  - Oxmarco
+  - JorisZierold
+  - keyringcore
 
 body:
   - type: textarea

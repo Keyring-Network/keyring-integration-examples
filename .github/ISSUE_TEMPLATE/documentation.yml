@@ -1,11 +1,12 @@
 name: Documentation
 description: Documentation additions / modifications e.g. comments in the code, README files, etc.
 title: "DOC: "
-labels: ["stream: backend", "type: documentation", "work: obvious"]
+labels: ["stream: smart contracts", "type: documentation", "work: obvious"]
 assignees:
   - flipdazed
-  - bulutbuyru
-  - mattiast
+  - Oxmarco
+  - JorisZierold
+  - keyringcore
 
 body:
   - type: textarea
