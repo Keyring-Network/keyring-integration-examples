@@ -17,14 +17,7 @@ body:
         Please follow [this guide](https://matthewrocklin.com/blog/work/2018/02/28/minimal-bug-reports) on how to
         provide a minimal, copy-pastable example.
       placeholder: >
-        from keyring_sdk import network
-        from keyring_sdk import rules
-
-        network.connect('goerli')
-        rule = rules.BaseRule("0xN00b")
-
-        ...
-      render: python
+        ```... insert code ...```
     validations:
       required: true
   - type: textarea
@@ -37,7 +30,7 @@ body:
     id: logs
     attributes:
       label: Relevant log output
-      description: If applicable, provide relevant log output. No need for backticks here.
+      description: If applicable, provide relevant log output. No need for backticks here - highlights as shell output.
       render: shell
   - type: dropdown
     id: effort
@@ -95,3 +88,4 @@ body:
         - label: frontend - onboarding
         - label: frontend - widget
         - label: frontend - zk credentials
+        - label: frontend - admin
