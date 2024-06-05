@@ -29,7 +29,7 @@ contract TestKeyringCompliance is Test, Deployers {
     MockKeyringCache keyring = new MockKeyringCache();
     KeyringComplianceImplementation keyringComplianceImpl =
         KeyringComplianceImplementation(address(uint160(Hooks.BEFORE_SWAP_FLAG | Hooks.BEFORE_ADD_LIQUIDITY_FLAG)));
-    uint32 policyId = 1;
+    uint32 policyId = 7; // Keyring Connect policy
 
     function setUp() public {
         deployFreshManagerAndRouters();
